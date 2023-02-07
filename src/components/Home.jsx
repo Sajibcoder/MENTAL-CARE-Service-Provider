@@ -1,19 +1,14 @@
 import React from "react";
-import vg from "../assets/2.webp";
-import {
-  AiFillGoogleCircle,
-  AiFillAmazonCircle,
-  AiFillYoutube,
-  AiFillInstagram,
-} from "react-icons/ai";
+import vg from "../img/tik.jpg";
+import img from "../img/R.png";
 
 const Home = () => {
   return (
     <>
       <div className="home" id="home">
         <main>
-          <h1>TechyStar</h1>
-          <p>Solution to all your problems</p>
+          <h1>MENTAL CARE</h1>
+          <p>Depression Is Temporary, Hope Is Permanent. So choose Life, Protect Your Mental Health</p>
         </main>
       </div>
 
@@ -22,74 +17,46 @@ const Home = () => {
 
         <div>
           <p>
-            We are your one and only solution to the tech problems you face
-            every day. We are leading tech company whose aim is to increase the
-            problem solving ability in children.
-          </p>
+            Things not to say to someone with mental illness: ignore it. Forget about it. Fight it. You are better than this. Just because no one else can heal or do your inner work for you, doesn't mean you can, should, or need to do it.
+            </p>
+            <p>
+                                                - Mental Care With you
+            </p>
         </div>
       </div>
 
       <div className="home3" id="about">
         <div>
-          <h1>Who we are?</h1>
+          <h1>About Us</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            officiis hic illo quos sit commodi, aut magnam odio eligendi? Totam
-            quis officiis fugit sunt dolores nostrum tenetur iusto est odio
-            mollitia. Dolor placeat repellendus officia aspernatur dolorum
-            harum. Dolorem cumque quaerat eius qui deserunt ullam laudantium
-            quia tempore. Dignissimos esse sequi numquam est ipsam nemo,
-            voluptas vel recusandae iste aspernatur qui quasi, commodi, atque
-            ipsa dolores tempore asperiores? Dolores soluta placeat molestiae
-            aperiam, ullam officia fugiat corrupti odio, suscipit ipsum cum vel
-            nemo. Ratione quo tempore fugit quaerat! Facilis beatae impedit
-            similique maxime praesentium sunt unde necessitatibus voluptates
-            ipsa, et, numquam reiciendis eveniet? Aliquid nemo nesciunt placeat,
-            qui fuga quae repellat sunt, non natus, iure ab officia rem ipsa cum
-            sed cumque corporis voluptate quibusdam nostrum quod saepe
+          Mental Care has professionals who diagnose mental health conditions and provide treatment. Most have at least a master's degree or more-advanced education, training and credentials. Our mental health professionals can provide psychological assessments and therapy; however, cannot generally prescribe medications (although some states will allow it). On your first visit, our counselor will want to get to know you and why you called him or her. The counselor will want to know-- what you think the problem is, about your life, what you do, where you live, with whom you live. It is also common to be asked about your family and friends. This information helps the professional to assess your situation and develop a plan for treatment. If you don’t feel comfortable with the professional after the first, or even several visits, talk about your feelings at your next meeting; don’t be afraid to contact another counselor. Feeling comfortable with the professional you choose is very important to the success of your treatment.
           </p>
         </div>
       </div>
 
-      <div className="home4" id="brands">
+      <div className="home4" id="counselor">
         <div>
-          <h1>Brands</h1>
+          <h1>Our Counselor</h1>
 
           <article>
-            <div
-              style={{
-                animationDelay: "0.3s",
-              }}
-            >
-              <AiFillGoogleCircle />
-              <p>Google</p>
+            <div>
+              <img src={img} alt="" />
+              <p>Dr. Amiya Paul</p>
             </div>
 
-            <div
-              style={{
-                animationDelay: "0.5s",
-              }}
-            >
-              <AiFillAmazonCircle />
-              <p>Amazon</p>
+            <div>
+              <img src={img} alt="" />
+              <p>Dr. Abhishek Nayek</p>
             </div>
 
-            <div
-              style={{
-                animationDelay: "0.7s",
-              }}
-            >
-              <AiFillYoutube />
-              <p>Youtube</p>
+            <div>
+              <img src={img} alt="" />
+              <p>Dr. Kritika Singh</p>
             </div>
 
-            <div
-              style={{
-                animationDelay: "1s",
-              }}
-            >
-              <AiFillInstagram />
-              <p>Instagram</p>
+            <div>
+              <img src={img} alt="" />
+              <p>Dr. Prathuma Karthik</p>
             </div>
           </article>
         </div>

@@ -2,21 +2,21 @@
 
 nav {
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   background-color: $first;
   top: 0%;
-  z-index: 10;
+  z-index: 30;
 
-  > h1 {
-    text-transform: uppercase;
+  >h2{
+    color:  rgb(61, 143, 221);
   }
 
   > main {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
 
@@ -25,7 +25,7 @@ nav {
       margin: 1rem;
 
       &:hover {
-        color: $third;
+        color: blue;
       }
     }
   }
