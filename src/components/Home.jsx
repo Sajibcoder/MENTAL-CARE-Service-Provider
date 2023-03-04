@@ -1,6 +1,9 @@
 import React from "react";
 import vg from "../img/tik.jpg";
-import img from "../img/R.png";
+import img from "../img/doc1.jpg";
+import img1 from "../img/doc2.avif";
+import img2 from "../img/doc3.jpg";
+import img3 from "../img/doc4.webp";
 
 const Home = () => {
   return (
@@ -45,17 +48,17 @@ const Home = () => {
             </div>
 
             <div>
-              <img src={img} alt="" />
-              <p>Dr. Abhishek Nayek</p>
-            </div>
-
-            <div>
-              <img src={img} alt="" />
+              <img src={img1} alt="" />
               <p>Dr. Kritika Singh</p>
             </div>
 
             <div>
-              <img src={img} alt="" />
+              <img src={img2} alt="" />
+              <p>Dr. Abhishek Nayek</p>
+            </div>
+
+            <div>
+              <img src={img3} alt="" />
               <p>Dr. Prathuma Karthik</p>
             </div>
           </article>
